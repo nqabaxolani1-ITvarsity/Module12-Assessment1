@@ -4,30 +4,28 @@
 		<title></title>
 	</head>
 	<body onload="getContact()" style="background-image: url(giphy.gif); background-repeat: none; background-size: 100% 100%;">
-		<center><div id="avatarImage"></div></center>
+		<centre><div id="avatarImage"></div></centre>
 		<form id="editForm">
-			<label for="firstname" style="color:white; font-family: century gothic; margin-left: 50px;">First name</label>
-			<input type="text" name="firstname" id="firstname" readonly style="margin-left: 50px;"><br/>
-			<label for="lastname" style="color:white; font-family: century gothic; margin-left: 50px;">Last name</label>
-			<input type="text" name="lastname" id="lastname" readonly style="margin-left: 48px;"><br/>
-			<label for="Mobile" style="color:white; font-family: century gothic; margin-left: 50px;">Mobile</label>
-			<input type="text" name="mobile" id="mobile" readonly style="margin-left: 75px;"><br/>
-			<label for="email" style="color:white; font-family: century gothic; margin-left: 50px;">Email</label>
-			<input type="text" name="email" id="email" readonly style="margin-left: 87px;"><br/>
-			<label for="avatar" id="avatarLabel" hidden>Change profile image</label><br/>
-			<input type="file" name="avatar" id="avatar" hidden style=" border: 0px;color:black; background-color: orange;
-			border-radius: 20%; font-size: 25px; padding: 15px;"><br/>
-			<br/>
-			<button type="submit" id="submitForm" hidden style=" border: 0px;color:black; background-color: orange;
-			border-radius: 20%; font-size: 25px; padding: 15px;">Submit</button>
-		</form>
+			<form id="editForm">
+				<label for="firstname">First name</label>
+				<input type="text" name="firstname" id="firstname" readonly><br/>
+				<label for="lastname">Last name</label>
+				<input type="text" name="lastname" id="lastname" readonly><br/>
+				<label for="mobile">Mobile</label>
+				<input type="text" name="mobile" id="mobile" readonly><br/>
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" readonly><br/>
+				<label for="avatar" id="avatarLabel" hidden>change profile image</label>
+				<input type="file" name="avatar" id="avatar" hidden><br/>
+				<br/>
+				<button type="submit" id="submitForm" hidden>Submit</button>
+				</form>
 		<br/><br/>
-		<center><button id="homeLink" type="button" style=" border: 0px;color:black; background-color: orange;
-			border-radius: 20%; font-size: 25px; padding: 15px;">Home</button>
-		<button id="editContact" type="button" style=" border: 0px;color:black; background-color: orange;
-			border-radius: 20%; font-size: 25px; padding: 15px;">Edit</button>
-		<button id="deleteContact" type="button" style=" border: 0px;color:black; background-color: orange;
-			border-radius: 20%; font-size: 25px; padding: 15px;">Delete</button></center>
+		<centre></form>
+			<br/><br/>
+			<button id="homeLink" type="button">Home</button>
+			<button id="editContact" type="button">Edit</button>
+			<button id="deleteContact" type="button">Delete</button></centre>
 		
 		<script src="config.js"></script>
 		<script>
